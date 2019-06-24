@@ -51,6 +51,16 @@ The function returns a short scale name of large numbers.
 ```
 
 
+## The Conway-Wechsler System
+
+The Published Data of Robert Munafo  
+http://www.mrob.com/pub/index.html
+
+Large Numbers  
+The Conway-Wechsler System  
+http://www.mrob.com/pub/math/largenum.html#conway-wechsler
+
+
 ## License
 
 [The Unlicense](LICENSE)
