@@ -117,9 +117,8 @@
   (multiple-value-bind (a b) (truncate x 10)
     (multiple-value-bind (c d) (truncate a 10)
       (multiple-value-bind (e f) (truncate c 10)
-        (multiple-value-bind (g h) (truncate e 10)
-          (declare (ignore g))
-          (values b d f))))))
+        (declare (ignore e))
+        (values b d f)))))
 
 (defun unit-large (x)
   (multiple-value-bind (s1 s10 s100) (break-quotient x)
