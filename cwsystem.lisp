@@ -166,6 +166,7 @@
       (pout "on"))))
 
 (defun unit-output (index &optional (cardinal t))
+  (declare (type (integer 0 *) index))
   (unit-name-index index)
   (unless cardinal
     (pout "th")))
